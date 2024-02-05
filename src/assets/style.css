@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1f1517;
+    color: #ffffff;
+}
+
+html {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120;
+    margin: auto;
+    padding: 1.5rem 10rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Teko;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu {
+    color: #FFF2E780;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.linkedin {
+    color: #FFF2E7;
+    font-weight: 600;
+}
+
+.github {
+    color: #FFF2E7;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+    background: #181012;
+}
+
+.hero {
+    align-items: center;
+    max-width: 1120;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6rem;
+    padding: 0rem 2rem;
+    margin: auto;
+    overflow: clip;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.hero-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.destaque.marron {
+    font-family: Epilogue;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #A45A49;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+hr {
+    border-color: #A45A49;
+}
+
+.hero-subtitulo {
+    color: #C7BAB3;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.hero-imagens-container {
+    max-width: 40%;
+    column-count: 5;
+    column-gap: 1rem;
+    margin: 1rem;
+}
+
+.hero-imagens-container > figure > img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.botao-container {
+    width: 100%;  
+    max-width: 1120;
+    margin: auto;
+    transform: translate(0, -50%);
+    margin-left: 4%;
+}
+
+button {
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #A45A49;
+}
+button:hover {
+    background-color: rgba(255,255, 255, .1);
+    cursor: pointer;
+    transition: all .3s ease-in;
+    
+}
+
+.receitas {
+    display: flex;
+    flex-direction: column;
+    max-width: 1120;
+    padding: 3rem 2rem;
+    margin: auto;
+}
+
+.receitas-cabecalho {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.receitas-titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFF2E7;
+}
+
+.receitas-subtitulo {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.receitas-card-container {
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.receitas-card {
+    background: #241A1C;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+    margin-top: 2rem;
+}
+
+.receitas-card-cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.receitas-card-cabecalho-detalhes {
+    display: flex;
+    flex-direction: column;
+    gap: o.5rem;
+}
+
+.destaque.amarelo {
+    color: #E7A80E;
+}
+
+.receita-titulo {
+    color: #FFF2E7;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.receita-avaliacao {
+    color: #756A67;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.receita-descricao {
+    color: #C7BAB3;
+    
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.receita-autor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.receita-autor > img {
+    border-radius: 20rem;
+    width: 1.5rem;
+}
+
+.receita-nome {
+    color: #C7BAB3;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+footer {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background: #23181A;
+}
+
+.footer-copy {
+    color: #FFF2E7;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-autor {
+    color: rgba(255, 242, 231, 0.50);
+    font-size: 1rem;
+    font-weight: 500;
+}
